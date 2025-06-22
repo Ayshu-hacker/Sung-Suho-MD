@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~gzl0ya7a#9uNNnbQCLymx2PJ8z6XmEJt1C0RPV40AlEbPYyxTTms",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
@@ -45,7 +45,7 @@ module.exports = {
     ANTI_LINK: process.env.ANTI_LINK || "true",
     // make anti link true,false for groups 
 
-    MENTION_REPLY: process.env.MENTION_REPLY || "false",
+    MENTION_REPLY: process.env.MENTION_REPLY || "true",
     // make true if want auto voice reply if someone mention you 
 
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/eeeypw.jpg",
@@ -67,7 +67,7 @@ module.exports = {
     STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
     // type sticker pack name 
 
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
     // make this true for custom emoji react  
 
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -85,7 +85,7 @@ module.exports = {
     DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ sᴜɴɢ sᴜʜᴏ*",
     // add bot owner description  
 
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",
     // Turn true or false for automatic read msgs
 
     AUTO_REACT: process.env.AUTO_REACT || "false",
@@ -103,10 +103,10 @@ module.exports = {
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
     // make true or false automatic text reply 
 
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // make true for always online 
 
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
     // make false if want private mode
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
